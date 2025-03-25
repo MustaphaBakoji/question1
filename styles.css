@@ -1,0 +1,357 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+
+nav ul li {
+    display: inline;
+    font-family: Arial, sans-serif;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-right: 20px;
+
+
+}
+
+.active {
+    font-weight: bold;
+    color: #68c26a;
+
+
+
+}
+
+nav ul li a {
+
+    color: inherit;
+    text-decoration: none;
+
+}
+
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 0;
+
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main content styles */
+.div-content {
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: #f9f9f9;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Section styles */
+.div-content section {
+    margin-bottom: 20px;
+    /* Adds space between sections */
+    padding: 15px;
+
+    border-left: 3px solid #3498db;
+
+    background-color: #ffffff;
+
+}
+
+/* Headings styles */
+.div-content h2 {
+    font-size: 1.8em;
+    /* Larger font size for main headings */
+    color: #333;
+    /* Dark gray color for headings */
+}
+
+.div-content h3 {
+    font-size: 1.5em;
+
+    color: #3e3e3e;
+
+    margin-top: 10px;
+
+}
+
+/* Paragraph styles */
+.div-content p {
+    line-height: 1.6;
+
+    color: #555;
+
+}
+
+
+.div-content ul {
+    padding-left: 20px;
+    /* Space before the list */
+    list-style-type: disc;
+
+}
+
+/* Link styles */
+.div-content a {
+    color: #3498db;
+
+    text-decoration: none;
+
+    transition: color 0.3s;
+
+}
+
+.div-content a:hover {
+    color: #2980b9;
+
+    text-decoration: underline;
+
+}
+
+
+.about {
+    max-width: 800px;
+
+
+    padding: 20px;
+
+    background-color: #f6f9fc;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Headings styles */
+.about h2 {
+    font-size: 2em;
+
+    color: #2c3e50;
+
+    margin-bottom: 15px;
+
+}
+
+.about h3 {
+    font-size: 1.6em;
+
+    color: #34495e;
+
+    margin: 15px 0;
+
+}
+
+/* Paragraph styles for the About page */
+.about p {
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+
+    color: #555;
+
+}
+
+/* List styles for team members or accomplishments */
+.about ul {
+    padding-left: 20px;
+
+    list-style-type: disc;
+
+}
+
+/* Link styles */
+.about a {
+    color: #3498db;
+
+    text-decoration: none;
+
+    transition: color 0.3s;
+    /* Smooth color transition on hover */
+}
+
+.about a:hover {
+    color: #2980b9;
+
+    text-decoration: underline;
+
+}
+
+/* Contact page styles for the .contact div */
+.contact {
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: #e9f7ef;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Headings styles */
+.contact h2 {
+    font-size: 2em;
+
+    color: #2c3e50;
+
+    margin-bottom: 15px;
+    /* Space below the heading */
+}
+
+.contact h3 {
+    font-size: 1.6em;
+
+    color: #34495e;
+
+    margin: 15px 0;
+
+}
+
+/* Paragraph styles for the Contact page */
+.contact p {
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+
+    color: #555;
+
+}
+
+/* Form styles */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    /**/
+    gap: 10px;
+
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+}
+
+.contact button {
+    padding: 10px;
+
+    background-color: #3498db;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+    /* Smooth background color transition */
+}
+
+.contact button:hover {
+    background-color: #2980b9;
+
+}
+
+/* FAQ page styles for the .faq div */
+.faq {
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: #eef9ff;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Headings styles */
+.faq h2 {
+    font-size: 2em;
+
+    color: #2c3e50;
+
+    margin-bottom: 15px;
+
+}
+
+.faq h3 {
+    font-size: 1.6em;
+
+    color: #34495e;
+
+    margin: 15px 0;
+
+}
+
+/* Paragraph styles for the FAQ page */
+.faq p {
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+
+    color: #555;
+
+}
+
+
+.faq a {
+    color: #3498db;
+
+    text-decoration: none;
+
+    transition: color 0.3s;
+
+}
+
+.faq a:hover {
+    color: #2980b9;
+
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
+    width: 100%;
+}
